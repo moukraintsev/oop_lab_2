@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
     vector<string> s = {"1", "3"};
     auto p = h.at<vector<string>, vector<int>>(s);
     assert(p[0] == 10 and p[1] == 3);
-    std::string path = "/home/feodosii/1.txt";
+    std::string path = "/home/max/1.txt";
     h.toFile(path);
     h1.clear();
     h1.fromFile(path);
